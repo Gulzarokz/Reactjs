@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Event from './Components/Event';
-
+import HookCounter from './ChaiorCode/HookCounter';
+// import Event from './Components/Event';
 // import {} from './Components/Function'
 
 
@@ -13,7 +13,8 @@ function App() {
     <>
    
      {/* <Function /> */}
-    <Event /> 
+    {/* <Event />  */}
+    <HookCounter /> 
 
     </>
   )
