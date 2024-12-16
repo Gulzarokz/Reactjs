@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import react, { useState } from 'react'
 import './App.css'
-import HookCounter from './ChaiorCode/HookCounter';
+// import HookCounter from './ChaiorCode/HookCounter';
+// import UseState from './Components/UseState';
 // import Event from './Components/Event';
 // import {} from './Components/Function'
-
-
+// import ClassProps from './Components/ClassProps';
 
 function App() {
   
@@ -14,8 +14,11 @@ function App() {
    
      {/* <Function /> */}
     {/* <Event />  */}
-    <HookCounter /> 
-
+    {/* <HookCounter />  */}
+    {/* <UseState /> */}
+    {/* <Props /> */}
+    {/* <ClassProps /> */}
+ 
     </>
   )
 }
